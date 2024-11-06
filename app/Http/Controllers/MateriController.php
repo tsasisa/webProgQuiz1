@@ -29,7 +29,7 @@ class MateriController extends Controller
 
         public function popular()
         {
-        $popularMateri = Materi::orderBy('visitor', 'desc')->paginate(3); 
+        $popularMateri = Materi::with(['writer'])->orderBy('visitor', 'desc')->paginate(3); 
         return view('materi.popular', compact('popularMateri'));
         }
 
