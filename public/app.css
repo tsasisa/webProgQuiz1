@@ -1,0 +1,25 @@
+.custom-bg{
+    background-color:rgb(237, 246, 241); 
+}
+
+.theme-color{
+    background-color: rgb(38, 51, 84);
+}
+
+.custom-height{
+    height: 100px;
+}
+
+.custom-border{
+    border-radius: .100rem;
+}
+
+/* Tambahkan CSS ini di file CSS Anda */
+.carousel-full {
+    width: 100vw;
+    height: 70vh;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
